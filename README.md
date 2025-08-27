@@ -41,7 +41,7 @@ EXAMPLE:
 
 ### CODE
 
-Create a 2 dimensional list with the words to be replaced in the first column and the corresponding emoticons to the second column
+Create a 2 dimensional list with the words to be replaced in the first column and the corresponding emoticons to the second column.
 
     arr = [["smile",":)"], #create a 2 dimensional list
            ["grin",":D"],
@@ -53,7 +53,7 @@ Create a function called `emotify()` with one parameter called `sentence`. The `
 
 This for loop structure checks if each element on `words` has a similar word on `arr`. During comparison in the if statement, the elements on `words` are transformed into lowercase letters using the `lower()` function. This ensures that similar words are verified even if they have different letter cases.
 
-Finally Join the elements in the list `words` using the `.join()` with a single space in between
+Finally Join the elements in the list `words` using the `.join()` with a single space in between.
 
 This structure also maintain the letter case of other words in the sentence.
 
@@ -94,7 +94,7 @@ This structure also maintain the letter case of other words in the sentence.
 
 ### OVERVIEW
   Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being
-  everything in between the first and last element. Then print all three variables
+  everything in between the first and last element. Then print all three variables.
 
 EXAMPLE:
 * 1st = [1,2,3,4,5,6]
@@ -102,7 +102,7 @@ EXAMPLE:
 
 ### CODE
 
-let `arr1` be the one dimensional list of values
+let `arr1` be the one dimensional list of values.
 
 Since python counts starting in `0` we get the first element in the list by writing `arr1[0]`.
 
